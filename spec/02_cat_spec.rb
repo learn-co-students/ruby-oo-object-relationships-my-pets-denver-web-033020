@@ -7,9 +7,9 @@ describe Cat do
     @cat = Cat.new("Crookshanks", @owner)
   end
 
-  after do
-    Owner.all.clear
-  end
+  # after do
+  #   Owner.all.clear
+  # end
 
   context 'Instance methods' do
     it "initializes with a name and an Owner" do
