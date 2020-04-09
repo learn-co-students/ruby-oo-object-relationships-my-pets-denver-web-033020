@@ -7,9 +7,9 @@ describe Dog do
     @dog = Dog.new("Lassie", @owner)
   end
 
-  after do
-    Owner.all.clear
-  end
+  # after do
+  #   Owner.all.clear
+  # end
 
   context 'Instance methods' do
     it "initializes with a name and an Owner" do
